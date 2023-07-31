@@ -1,0 +1,36 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header, footer {
+    background-color: #1F2937;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+header h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.header-small {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+nav {
+    position: sticky;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: 600;
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
