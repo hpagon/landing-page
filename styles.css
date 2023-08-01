@@ -76,6 +76,8 @@ button {
     padding: 7px 25px;
 }
 
+/* random section styles */
+
 .random {
     padding-bottom: 5%;
 }
@@ -116,9 +118,31 @@ button {
     text-align: center;
 }
 
+/* quote section styles */
+
 .quote {
     background-color: #E5E7EB;
 }
+
+.quote div:nth-child(1) {
+    margin: auto;
+    width: 55%;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    padding-top: 5%;
+}
+
+.quote div:nth-child(2) {
+    width: 40%;
+    margin-left: auto;
+    margin-top: 0px;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-bottom: 5%;
+}
+
+/* footer */
 
 footer {
     display: flex;
